@@ -55,13 +55,13 @@ section {
 
 .btn-primary {
   background-color: #ff6700;
-  border-color: #ff6700;
-  opacity: 0.5;
-  filter: alpha(opacity=40);  }
+  border-color: #ff6700;  }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #e57d37 !important;
     border-color: #e57d37 !important;
-    color: white; }
+    color: white;
+	opacity: 0.5;
+	filter: alpha(opacity=40);	}
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
 	

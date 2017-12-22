@@ -49,7 +49,7 @@ $(function() {
           $('#success > .alert-danger').append($("<strong>").text("Perdón " + firstName + ", el servidor no está funcionando. Intenta de nuevo en un rato!"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
-          $('#contactForm').trigger("reset");
+          //$('#contactForm').trigger("reset");
         },
         complete: function() {
           setTimeout(function() {
